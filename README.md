@@ -11,7 +11,7 @@ ProxFlix is yet another smart DNS solution to bypass geo-blocking.
 ## Install from DockerHub
 
 ```bash
-docker pull oblique/proxflix
+docker pull moovendran-368/proxflix
 docker run -v /usr/local/bin:/install oblique/proxflix instl
 ```
 
@@ -20,7 +20,7 @@ docker run -v /usr/local/bin:/install oblique/proxflix instl
 ```bash
 git clone https://github.com/moovendran-368/proxflix
 cd proxflix
-docker build -t oblique/proxflix .
+docker build -t moovendran-368/proxflix .
 ln -snf $PWD/proxflix /usr/local/bin/proxflix
 ```
 
