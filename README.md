@@ -18,7 +18,7 @@ docker run -v /usr/local/bin:/install oblique/proxflix instl
 ## Install from GitHub
 
 ```bash
-git clone https://github.com/oblique/proxflix
+git clone https://github.com/moovendran-368/proxflix
 cd proxflix
 docker build -t oblique/proxflix .
 ln -snf $PWD/proxflix /usr/local/bin/proxflix
